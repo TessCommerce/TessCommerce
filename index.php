@@ -27,8 +27,5 @@ $App = new App();
 $loader = new YamlFileLoader($App, new FileLocator(CONFIG_DIR));
 $loader->load('services.yml');
 
-
-
-
 $App->run();
 
